@@ -62,7 +62,7 @@ def chicken():
 while onion > 0:
     print("onions left", onion)
     print("tomato left" , tomato)
-    choice= input("press o or t or buy")
+    choice= input("press o or t or b")
     if choice == 'o':
         chicken_tikka()
 
