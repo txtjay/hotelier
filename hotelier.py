@@ -35,13 +35,13 @@ tomato= int(input("tomatos"))
 
 def onions():
     global onion
-    buyonions= int(input("enter number of onions"))
+    buyonions= int(input("how many onions did you buy?"))
     onion = buyonions+onion
     return onion
 
 def tomatos():
     global tomato
-    buytomatos= int(input("enter number of onions"))
+    buytomatos= int(input("how many tomatos did you buy?"))
     tomato = buytomatos+tomato
     return tomato
 
